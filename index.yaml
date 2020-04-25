@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-25T23:48:51.7033584+01:00"
+    created: "2020-04-25T23:53:17.3884728+01:00"
     description: A Helm chart for Kubernetes
     digest: de6ac96addffedbd2e4c9b0ba36b7967d8861375600bd5ef9bb679ddd115ef7f
     name: helm-chart-test
@@ -13,8 +13,18 @@ entries:
     version: 0.1.0
   super-banana:
   - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2020-04-25T23:53:17.3864737+01:00"
+    description: A Helm chart for Super Banana
+    digest: 1a9eed854e84f9e5d563e05e733c92f01598365b16703b627a251d283258c533
+    name: super-banana
+    type: application
+    urls:
+    - https://heymrspaceman.github.io/super-banana-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-25T23:48:51.7023601+01:00"
+    created: "2020-04-25T23:53:17.3844714+01:00"
     description: A Helm chart for Super Banana
     digest: 2bd3cc7e549d980713dfc9b849f1257b535eba0de23451fb6f3ea2e38798d299
     name: super-banana
@@ -22,4 +32,4 @@ entries:
     urls:
     - https://heymrspaceman.github.io/super-banana-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-25T23:48:51.7013621+01:00"
+generated: "2020-04-25T23:53:17.3774742+01:00"
